@@ -24,6 +24,7 @@ export const dataCursos2 = [
         link1:"https://www.youtube.com/watch?v=6741ceWzsKQ",
         link2:"https://www.youtube.com/watch?v=", 
         link3:"https://youtu.be/EJzX4XSpZFg?si=c5tWBxZIwtuhWOGI",
+        instructor:"Leifer Medez",
         horas:"45",
         descripcion:"Aprende a crear aplicaciones web con Angularjs en este curso.",
         tema1:"instalación",

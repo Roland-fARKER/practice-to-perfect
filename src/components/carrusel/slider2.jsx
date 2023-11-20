@@ -50,7 +50,6 @@ function Slider2() {
                 <h2 className="titulo">Explora nuestros cursos</h2>
                 <Slider {...settings}>
                     {dataCursos2.map((item) => (
-                      
                         <div className="card">
                             <div className="card-top">
                                 <img src={item.imagen} alt={item.title} className="imagen_curso"/>
