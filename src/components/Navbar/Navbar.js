@@ -18,17 +18,20 @@ import {
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import imagenes from "../../img/imagenes";
-import "./stile.css"
+import "./stile.css";
+import { Link } from "react-router-dom";
+import "./navbar.css"
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+
 
   return (
     <Container className="NavMenu">
       <Wrapper>
         <IconContext.Provider value={{ style: { fontSize: "2em" } }}>
           <LogoContainer>
-            <img src={imagenes[0].practice_logo} alt="" className="logo"/>
+            <img src={imagenes[0].practice_logo} alt="" className="logo" />
             <p>Practice_</p>
             <p> to perfect</p>
           </LogoContainer>
@@ -49,8 +52,10 @@ const Navbar = () => {
             <MenuItem>
               <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
                 <div>
+                  <Link to={'/Login'} className="link" >
                   <FaUserAlt />
-                  Sobre Nosotros
+                  Login
+                  </Link>
                 </div>
               </MenuItemLink>
             </MenuItem>
