@@ -1,0 +1,73 @@
+.ContLog{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/Sprinkle.svg);
+    background-size: cover;
+    color:#EBEBEB;
+}
+
+.ContLog h1{
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Log{
+    margin-top: 10px;
+    padding: 10px ;
+    width: 200px;
+    height: 60vh;
+    background-color: #EBEBEB;
+    border-radius: 30px;
+    display: grid;
+    justify-content: center;
+    color: #114B5F;
+    align-items: center;
+}
+
+.LogLogo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+}
+.Iniciar{
+    display: flex;
+}
+.BotonInicio{
+    background-color: #6CB14F;
+    color: #114B5F;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    width: 115px;
+    height: 40px;
+}
+.BotonInicio:hover{
+    background-color: #114B5F;
+    color: #6CB14F;
+}
+.blok{
+    display: grid;
+    justify-items: right;
+}
+.Titulo{
+    font-size: 15px;
+}
+
+.Parrafo{
+    font-size: 15px;
+    color: #6CB14F;
+}
+@media only screen and (max-width: 767px) {
+    .Log{
+        width: 360px;
+    }
+
+    .LogLogo{
+        width: 185px;
+    }
+}

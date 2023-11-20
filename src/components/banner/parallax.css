@@ -1,0 +1,29 @@
+
+.ParallaxCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    color: aliceblue;
+}
+
+.contenido{
+    display: flex;
+    width: 70vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dino{
+    width: 280px;
+}
+
+@media only screen and (max-width: 767px) {
+    .dino{
+        width: 150px;
+    }
+
+    .contenido h1{
+        margin-left: 10px ;
+    }
+}
